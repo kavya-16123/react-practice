@@ -26,7 +26,7 @@ function Register() {
       <p className="display-2 text-center text-primary">Register</p>
       <form onSubmit={handleSubmit(createUser)}>
        <input type="text" {...register('username')} className="form-control mb-3" placeholder='Username' />
-       <input type="password" {...register('password')} className="form-control mb-3" placeholder='Password' />
+       <input type="password" {...register('pw')} className="form-control mb-3" placeholder='Password' />
        <input type="date" {...register('dob')} className="form-control mb-3"  />
        <input type="email" {...register('email')} className="form-control mb-3"  placeholder='Email' />
        <button type="submit" className="btn btn-success">Regsiter</button>
